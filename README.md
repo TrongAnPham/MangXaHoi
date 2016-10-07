@@ -1,10 +1,10 @@
-# Homework 1 - *Name of App*
+# Homework 1 - *Mang xa hoi*
 
 **Name of your app** Trang web cho phép người dùng chia sẻ và cập nhật trạng thái. Due Date: 24:00 11/10/2016
 
-Danh sách sinh viên: **Your Name Here**
+Danh sách sinh viên: **Nguyễn Hoàng Duy - 1312085**
 
-URL: **Insert your Heroku URL here**
+URL: **https://rocky-tor-40983.herokuapp.com/**
 
 ## Chức năng
 
