@@ -13,5 +13,9 @@ module MangXaHoi
     # -- all .rb files in that directory are automatically loaded.
 	config.assets.enabled = true
 	config.public_file_server.enabled = true
+	config.cache_classes = true
+	config.assets.compile = true
+	config.assets.digest = true
+
   end
 end
