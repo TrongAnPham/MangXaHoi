@@ -1,10 +1,10 @@
 <div class="row">
 	<section class="user_info">
-		<aside class="col-xs-1">
+		<aside class="col-xs-2">
 					
 		</aside>
 		
-		<aside class="col-xs-10">
+		<aside class="col-xs-5">
 				<%= avatar_for @user %>
 				
 				<p>
@@ -18,8 +18,14 @@
 				</p>
 		</aside>
 	  
-		<aside class="col-xs-1">
-				
+		<aside class="col-xs-5">
+				<% if @user.microposts.any? %>
+      			<h3>Microposts (<%= @user.microposts.count %>)</h3>
+      			<ol class="microposts">
+        		<%= render @microposts %>
+      			</ol>
+      			<%= will_paginate @microposts %>
+    			<% end %>
 		</aside>
 	</section>
 </div>
